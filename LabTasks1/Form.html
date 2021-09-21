@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+	<div>
+	<span>*</span><span> - Denotes required information</span><br><br>
+
+	<h4>> 1 Donation   > 2 Conformation   > 3 thank you</h4>
+</div>
+
+<div>
+	<form>
+		<div><h2>Doner Information</h2></div>
+		<div >
+			<div ><label for="fname" >First name<span >*</span></label></div>
+	  		<div ><input type="text" id="fname" name="fname" ><br></div>
+
+	  		<div><label for="Lname">Last name<span >*</span></label></div>
+	  		<div ><input type="text" id="Lname" name="fname"><br></div>
+
+	  		<div ><label for="company">company</label></div>
+	  		<div><input type="text" id="companyname" name="companyname"><br></div>
+
+	  		<div ><label for="Adress1">Adress1<span >*</span></label></div>
+	  		<div ><input type="text" id="Adress1" name="Adress1"><br></div>
+
+
+	  		<div ><label for="Adress2">Adress2<span >*</span></label></div>
+	  		<div ><input type="text" id="Adress2" name="Adress2"><br></div>
+
+	  		<div ><label for="city">City<span >*</span></label></div>
+	  		<div ><input type="text" id="City" name="City"><br></div>
+
+	  		<div ><label for="state">State<span >*</span></label></div>
+	  		<div >
+	  			 <input list="States" name="State" id="State">
+				  <datalist id="States">
+				    <option value="Dhaka">
+				    <option value="Sylhet">
+				    <option value="Barishal">
+				    <option value="Cox-bazar">
+				    <option value="chitagon">
+				  </datalist>
+			</div>
+
+			<div ><label for="ZIP Code">ZIP code<span >*</span></label></div>
+	  		<div ><input type="text" id="Zip" name="Zip_code"class="margin"><br></div>
+
+	  		<div ><label for="Country">Country<span >*</span></label></div>
+	  		<div >
+	  			<input list="countrsys" name="countrsy" id="countrsy">
+	  			<datalist id="countrsys">
+			    <option value="Bangladesh">
+			    <option value="India">
+			    <option value="USA">
+			    <option value="UK">
+			  </datalist><br></div>
+
+			<div ><label for="Phone">Phone</label></div>
+	  		<div ><input type="number" id="Phone" name="Phone"><br></div>
+
+	  		<div><label for="Fax">Fax</label></div>
+	  		<div ><input type="number" id="Fax" name="Fax"><br></div>
+
+	  		<div ><label for="Email">Email<span >*</span></label></div>
+	  		<div ><input type="text" id="Email" name="Email"><br></div>
+
+	  		<div ><label for="Email">Donation Amount<span>*</span></label></div>
+	  		<div >
+	  			<input type="radio" name="Nonoe"><label>None</label> 
+	  			<input type="radio" name="Nonoe"><label>$50</label>
+	  			<input type="radio" name="Nonoe"><label>$75</label> 
+	  			<input type="radio" name="Nonoe"><label>$100</label>  
+	  			<input type="radio" name="Nonoe"><label>$250</label>
+	  			<input type="radio" name="Nonoe"><label>Other</label>  
+	  		</div>
+
+
+	  		<div><h5>(chack a button or type in your amount)</h5></div>
+
+	  		<div ><label for="amount">Other amount<span >$</span></label></div>
+	  		<div ><input type="text" id="Email" name=><br></div>
+
+	  		<div ><label for="amount" >Recurring Donation</label>
+	  			<span>(check if yes)</span>
+	  		</div>
+	  		<div ><input type="checkbox" name="Nonoe"><label >I'm interested in giving on a regular basis.</label></div><br>
+	  		
+	  		<div >
+	  			<div ><label for="Email">Mothly credit card $</label></div>
+	  			<input type="number" id="Email" name="Email">
+	  			<span>For</span>
+				<input type="number" id="Email" name="Email">
+	  			<span>Months</span>
+	  		</div>
+  		</div>
+
+  		<!-- SECOND PART -->
+
+  		<div ><h2>Honorarium And Memorial Donastion Information</h2></div>
+  		<div >
+  			
+  			<div ><label for="amount" >I would like to make this donation</label></div>
+  			<div >
+  				<input type="radio" name="Nonoe" ><label>To honor</label><br> 
+	  			<input type="radio" name="Nonoe" ><label>In memory of</label><br>
+	  		</div>
+
+
+
+	  		<div ><label for="Name">Name</label></div>
+	  		<div ><input type="text" id="Name" name="Name"><br></div>
+
+	  		<div ><p for="Adress1" >Acknowledge donation to</p></div>
+	  		<div ><input type="text" id="Adress1" name="Adress1"><br></div>
+
+
+	  		<div ><label for="Adress">Adress</label></div>
+	  		<div ><input type="text" id="Adress" name="Adress"><br></div>
+
+	  		<div ><label for="city">City</label></div>
+	  		<div ><input type="text" id="City" name="City"><br></div>
+
+
+	  		<div ><label for="state">State</label></div>
+	  		<div ><input list="state" name="state" value="Select State" >
+			  <datalist id="state">
+			    <option value="Dhaka">
+			    <option value="Sylhet">
+			    <option value="Barishal">
+			    <option value="Cox-bazar">
+			  </datalist><br></div>
+
+	  		<div ><label for="ZIP Code">ZIP</label></div>
+	  		<div ><input type="text" id="Zip" name="Zip_code"><br></div>
+
+  		</div>
+
+  		<!-- THIRD PART -->
+
+  		<div ><h2>Additinal Information</h2></div>
+  		<p>Please enter your name, company or organization as it you like it appers on publication</p>
+  		<div >
+  			<div ><label for="Name">Name</label></div>
+	  		<div ><input type="text" id="Name" name="Name"></div><br>
+  		</div>
+
+  		<div><input type="checkbox" name="Nonoe"><label >I would like my gift to remain anonymous.</label></div>
+  		<div><input type="checkbox" name="Nonoe"><label >My employe offers a matching gift pogram.</label></div>
+  		<div><input type="checkbox" name="Nonoe"><label >Please save the cost of ackonloging this gify by not mailing.</label></div><br>
+
+  		<div >
+  			<div ><label for="city">Comment</label><br><span>(please type any quastion or feedback here)</span></div>
+	  		<div ><textarea name="message" rows="5" cols="30">
+	  			
+	  		</textarea></div>
+  		</div>
+
+  		<div >
+  			<div ><label for="amount" >How may we contact you?</label>
+	  		</div>
+	  		<div ><input type="checkbox" name="Nonoe">Email</div>
+	  		<div ><input type="checkbox" name="Nonoe">post mail</div>
+	  		<div ><input type="checkbox" name="Nonoe">Telephone</div>
+	  		<div ><input type="checkbox" name="Nonoe">Fax</div>
+  		</div>
+  		<p>I would like to reseve newsletter and informatino about special event by:</p>
+  		<div >
+	  		<div ><input type="checkbox" name="Nonoe">Email</div>
+	  		<div ><input type="checkbox" name="Nonoe">post mail</div>
+  		</div>
+	  		<div ><input type="checkbox" name="Nonoe">I would like to reseve newsletter and informatino </div><br>
+
+	  		<div >
+	  			<button >Reset</button>
+	  			<button >Continue</button>
+	  		</div><br>
+	  		<div>
+		<img src="image\1.png" alt="Flowers in Chania" width="20" height="20"><span >Donate online with confidence you ar in secure server.</span><br>
+		<span>If you hae any quastion or problem plase contact..</span></div>
+	</form>
+</div>
+
+
+
+
+
+</body>
+</html>
